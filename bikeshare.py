@@ -51,7 +51,7 @@ def get_filters():
            else: 
                print("Oh, seems like there is a typo. Please choose between January, February, March, April, May, June")  
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week (all, monday, tuesday, ... sunday)
     if time_filter == 'day' or time_filter == 'both':
         while True:
             day = input("Which Day (Monday - Sunday)? ").title()
